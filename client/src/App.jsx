@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./components/Footer/Footer";
-import "./styles/App.scss";
+import "./styles/_style.scss";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
@@ -10,9 +10,9 @@ import NotFoundPage from "./pages/NotFound/NotFoundPage";
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
       <Header />
-      <div className="app">
+      <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
