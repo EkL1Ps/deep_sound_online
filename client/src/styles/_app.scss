@@ -5,8 +5,7 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  max-width: 1280px;
+#root {
   margin: 0 auto;
   min-height: 100%;
   display: flex;
@@ -14,6 +13,6 @@ body {
 }
 
 .main {
-//   min-height: 62vh;
+  //   min-height: 62vh;
   flex: 1 1 auto;
 }

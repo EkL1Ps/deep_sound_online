@@ -10,9 +10,9 @@ import NotFoundPage from "./pages/NotFound/NotFoundPage";
 
 function App() {
   return (
-    <div className="wrapper">
+    <>
       <Header />
-      <div className="main">
+      <div className="main container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
