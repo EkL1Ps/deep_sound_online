@@ -1,0 +1,54 @@
+.footer {
+  min-width: 1440px;
+  height: 288px;
+  background-color: #3e5c53;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.footer-container {
+  width: 1280px;
+  margin: 40px auto;
+}
+.footer-info-container {
+  display: flex;
+}
+.footer-logo {
+  margin: 0 200px 0 0;
+  p {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .footer-social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 88px;
+    margin: 56px 0 0 0;
+  }
+}
+.footer-information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px 0 0;
+  span {
+    font-weight: 700;
+  }
+}
+.footer-payment {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+.footer-credit-cards {
+  width: 522px;
+  display: flex;
+  justify-content: space-between;
+}

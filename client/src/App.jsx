@@ -1,8 +1,14 @@
-
+import React from "react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div>Shop</div>
+    <>
+      <header className="header">Header</header>
+      <main className="main">Main</main>
+
+      <Footer />
+    </>
   );
 }
 
