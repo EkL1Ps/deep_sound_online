@@ -1,0 +1,38 @@
+@import "../../styles/variables.scss";
+@import "../../styles/normalize.scss";
+@import "../../styles/_app.scss";
+
+.container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.img__title {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  color: $white;
+  font-size: 48px;
+  font-weight: 400;
+}
+.img__subtitle {
+  position: absolute;
+  top: 160px;
+  left: 204px;
+  color: $white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.img__btn {
+  background-color: $white;
+  border-radius: 30px;
+  color: $mainblack;
+  width: 198px;
+  height: 32px;
+  border: none;
+  position: absolute;
+  top: 205px;
+  left: 204px;
+  font-size: 14px;
+  font-weight: 400;
+}
