@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import { NavLink } from "react-router-dom";
+import arrowSubscribe from "../../images/footer/arrow.svg";
 
 function Home() {
   return (
@@ -17,6 +18,19 @@ function Home() {
               Learn more
             </span>
           </NavLink>
+        </div>
+      </div>
+
+      <div className="main-subscribe">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Be the first to know about exclusive offers</p>
+        <div className="subscribe-input">
+          <div className="si-form">
+            <input type="email" name="subscribe" placeholder="E-mail" />
+            <button>
+              Subscribe <img src={arrowSubscribe} alt="arrow" />
+            </button>
+          </div>
         </div>
       </div>
     </>

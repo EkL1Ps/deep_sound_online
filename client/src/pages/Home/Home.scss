@@ -5,6 +5,7 @@
 .main-page {
   margin-top: 30px;
   position: relative;
+  padding: 0 80px 0;
 }
 
 .img__title {
@@ -35,4 +36,75 @@
   left: 204px;
   font-size: 14px;
   font-weight: 400;
+}
+
+.main-subscribe {
+  background: url("../../../public/images/Photo.png") no-repeat;
+  height: 400px;
+  margin: 0 auto;
+  width: 1440px;
+  text-align: center;
+  padding: 1px 0 0 0;
+  color: white;
+
+  * {
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+    margin: 80px 0 17px 0;
+  }
+  p {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .subscribe-input {
+    margin: 50px 0 0 0;
+    position: relative;
+
+    .si-form {
+      margin: 0 auto;
+      background-color: white;
+      width: 630px;
+      height: 48px;
+      border-radius: 13px;
+      text-align: left;
+
+      input {
+        width: 454px;
+        height: 24px;
+        border: 0;
+        outline: 0;
+        font-size: 20px;
+        margin: 12px 0 0 0;
+        padding: 0 0 0 21px;
+      }
+    }
+    button {
+      cursor: pointer;
+      display: flex;
+      position: absolute;
+      justify-content: end;
+      width: 136px;
+      height: 32px;
+      border-radius: 5px;
+      background-color: $accentyellow;
+      border: 1px solid $accentyellow;
+      left: 891px;
+      top: 8px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      align-items: center;
+      transition: 0.5s all;
+      img {
+        width: 16px;
+        height: 16px;
+        margin: 0 8px 0 14px;
+      }
+      &:hover {
+        background-color: white;
+      }
+    }
+  }
 }
