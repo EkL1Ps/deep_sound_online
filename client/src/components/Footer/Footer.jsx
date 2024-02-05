@@ -7,11 +7,24 @@ import mastercardImage from "../../images/footer/Mastercard.svg";
 import payPalImage from "../../images/footer/Pay-Pal.svg";
 import payoneerImage from "../../images/footer/Payoneer.svg";
 import visaImage from "../../images/footer/visa.svg";
+import arrowSubscribe from "../../images/footer/arrow.svg";
 
 const Footer = () => {
   return (
     <>
       <footer className="footer">
+        <div className="main-subscribe">
+          <h2>Subscribe to our Newsletter</h2>
+          <p>Be the first to know about exclusive offers</p>
+          <div className="subscribe-input">
+            <div className="si-form">
+              <input type="email" name="subscribe" placeholder="E-mail" />
+              <button>
+                Subscribe <img src={arrowSubscribe} alt="arrow" />
+              </button>
+            </div>
+          </div>
+        </div>
         <div className="footer-container">
           <div className="footer-info-container">
             <div className="footer-logo">
