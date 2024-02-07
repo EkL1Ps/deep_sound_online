@@ -1,15 +1,21 @@
+@import "../../styles/variables.scss";
+@import "../../styles/normalize.scss";
+@import "../../styles/_app.scss";
+
 .footer {
   min-width: 1440px;
-  height: 288px;
-  background-color: #3e5c53;
+  padding: 0 0 1px;
+  min-height: 268px;
+  background-color: $accent;
   color: white;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  border: 1px solid $accent;
 }
 .footer-container {
   width: 1280px;
-  margin: 40px auto;
+  margin: 40px auto 40px;
 }
 .footer-info-container {
   display: flex;
