@@ -148,8 +148,8 @@ function Header() {
         </NavLink>
         <div className="dropdown__box">
           <NavLink
-            style={{ fontSize: "20px", fontWeight: "400px", color: "#303030" }}
-            to="/shop"
+            style={{ fontSize: "20px", fontWeight: "400px", color: "#303030"}}
+            to="/"
           >
             Category{" "}
             <span style={{ fontSize: "14px", color: "#3b3838" }}>&#9660;</span>
