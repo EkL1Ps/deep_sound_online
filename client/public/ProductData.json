@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Dynavoice 25 Black",
+      "description": "Stereo system",
+      "price": 1500,
+      "image": "stereo_Dynavoice1.png"
+    },
+    {
+      "id": 2,
+      "name": "Yamaha F51 Black",
+      "description": "Stereo system",
+      "price": 1000,
+      "image": "Stereo_yamaha1.png"
+    },
+    {
+      "id": 3,
+      "name": "Bowers & Wilkins PX8 Brown",
+      "description": "Wireless headsets",
+      "price": 900,
+      "image": "Wireless_vintage.jpg"
+    },
+    {
+      "id": 4,
+      "name": "JBL TT 350 (JBLTT350EU)",
+      "description": "Turntable player",
+      "price": 1200,
+      "image": "record_player1.png"
+    },
+    {
+      "id": 5,
+      "name": "Sennheiser Momentum 4 Vintage",
+      "description": "Record player",
+      "price": 900,
+      "image": "record__player2.png"
+    },
+    {
+      "id": 6,
+      "name": "Sennheiser Momentum 4 Vintage",
+      "description": "Wireless Vintage",
+      "price": 700,
+      "image": "Wireless_vintage.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dynavoice L25 Vintage",
+      "description": "Sound amplifier",
+      "price": 800,
+      "image": "amplifier_vintage1.png"
+    },
+    {
+      "id": 8,
+      "name": "Erzitich PERFIDUS Silver",
+      "description": "Sound amplifier",
+      "price": 700,
+      "image": "sound_amplifier2.png"
+    },
+    {
+      "id": 9,
+      "name": "TDK",
+      "description": "audiotape1.png",
+      "price": 10,
+      "image": "audiotape1.png"
+    },
+    {
+      "id": 10,
+      "name": "KOSS BT330i Black",
+      "description": "Wireless headsets",
+      "price": 1150,
+      "image": "headsets2.png"
+    },
+    {
+      "id": 11,
+      "name": "Neumann NDH 30 Modern",
+      "description": "Wireless headsets",
+      "price": 700,
+      "image": "headsets3.png"
+    },
+    {
+      "id": 12,
+      "name": "Audiolab 9000A Silver",
+      "description": "Sound amplifier",
+      "price": 870,
+      "image": "sound_amplifier3.png"
+    },
+    {
+      "id": 13,
+      "name": "JBL TT 352 Silver",
+      "description": "Turntable player",
+      "price": 1200,
+      "image": "record_player1.png"
+    },
+    {
+      "id": 14,
+      "name": "Erzitich P-90 Silver",
+      "description": "Sound amplifier",
+      "price": 900,
+      "image": "sound_amplifier4.png"
+    },
+    {
+      "id": 15,
+      "name": "Neumann U 67 Gold",
+      "description": "Professional microphone",
+      "price": 2500,
+      "image": "microphone1.png"
+    },
+    {
+      "id": 16,
+      "name": "Neumann U 67 Black",
+      "description": "Professional microphone",
+      "price": 2500,
+      "image": "microphone2.png"
+    }
+  ]
+}
