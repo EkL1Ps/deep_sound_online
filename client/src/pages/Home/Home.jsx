@@ -7,7 +7,7 @@ import CardItem from "../../components/CardItem/CardItem.jsx";
 function Home() {
   return (
     <>
-      <div className="container">
+      <div className="main-page">
         <div>
           <img
             style={{ zIndex: "1" }}
